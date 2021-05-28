@@ -1,0 +1,32 @@
+{
+  "name": "pac-app-2.0",
+  "version": "1.0.0",
+  "description": "Better design and more functionality",
+  "private": true,
+  "scripts": {
+    "test": "",
+    "test:ui": "yarn workspace app test",
+    "test:unit": "",
+    "test:integration": "",
+    "test:acceptance": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan1003/pac-app-2.0.git"
+  },
+  "author": "Juan G. De Jesus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juan1003/pac-app-2.0/issues"
+  },
+  "homepage": "https://github.com/juan1003/pac-app-2.0#readme",
+  "workspaces": [
+    "api",
+    "app"
+  ],
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "concurrently": "^6.2.0"
+  }
+}
